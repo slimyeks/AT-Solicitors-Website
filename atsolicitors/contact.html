@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+
+        #container {
+            display: flex;
+            flex-wrap:wrap;
+
+        }
+        #container > div {
+           background-color: rgb(194, 189, 189);
+           font-size: 20px;
+           margin: 20px;
+            padding: 20px;
+           width: 350px;
+        }
+
+        
+        input[type=text] {
+            width:50%;
+            padding: 12px 20px;
+            margin:8px;
+            border: 1px solid black;
+            border-radius: 7px;
+            box-sizing: border-box;
+            
+        }
+
+        input[type=submit] {
+            width: 25%;
+            background-color: darkgray;
+            color:black;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+
+        }
+
+        input[type=submit]:hover {
+            background-color: #fad99c;
+        }
+
+        #maincontent 
+        
+    </style>
+</head>
+<body>
+    <fieldset>
+    <div id="container">
+        <div class="Address">Address: <br>24, Ayo-Alabi Street, Oke-ira, Ogba, Lagos State</div>
+        <div class="Phone Numbers">Phone Number:<br> 08034961343 <br> 08066123915</div>
+        <div class="Email">Email: <br>atsolicitors@gmail.com</div>
+    </div>
+    <div id="main-content">
+        <div class="main-body">
+            
+            <form>
+                <input type="text" placeholder="First Name" name="name"><br>
+                <input type="text" placeholder="last Name" name="last_name"><br>
+                <input type="text" placeholder="Email" name="email"><br>
+                <input type="text" placeholder="Subject" name="subject"><br>
+                <input type="text" class="message" placeholder="Message" name="message"><br>
+                <input type="submit">
+                
+            </form>
+            
+        </div>
+        
+    </div>
+ </fieldset>  
+ 
+</body>
+</html>
